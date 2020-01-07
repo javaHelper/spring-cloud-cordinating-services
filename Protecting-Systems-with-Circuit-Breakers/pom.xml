@@ -1,0 +1,17 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>Protecting-Systems-with-Circuit-Breakers</artifactId>
+  <version>1</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>eureka-server</module>
+    <module>eureka-tollrate-service</module>
+    <module>eureka-fastpass-service</module>
+    <module>eureka-tollrate-billboard</module>
+    <module>eureka-fastpass-console</module>
+    <module>hystrix-dashboard</module>
+	<module>hystrix-turbine</module>
+  </modules>
+</project> 
