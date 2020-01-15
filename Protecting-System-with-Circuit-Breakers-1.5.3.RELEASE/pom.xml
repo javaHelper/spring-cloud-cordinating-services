@@ -1,0 +1,17 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>protecting-systems-with-circuit-breakers</artifactId>
+  <version>1</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>pluralsight-eureka-server</module>
+    <module>pluralsight-eureka-tollrate-service</module>
+    <module>pluralsight-eureka-fastpass-service</module>
+    <module>pluralsight-eureka-fastpass-console</module>
+    <module>pluralsight-eureka-tollrate-billboard</module>
+	<module>pluralsight-hystrix-dashboard</module>
+	<module>pluralsight-hystrix-turbine</module>
+  </modules>
+</project> 
