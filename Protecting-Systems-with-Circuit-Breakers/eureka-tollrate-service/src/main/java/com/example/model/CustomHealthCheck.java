@@ -4,7 +4,7 @@ import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.stereotype.Component;
 
-@Component
+/*@Component
 public class CustomHealthCheck implements HealthIndicator {
 
 	int errorcode = 0;
@@ -24,4 +24,4 @@ public class CustomHealthCheck implements HealthIndicator {
 			return Health.up().build();
 		}
 	}
-}
+}*/

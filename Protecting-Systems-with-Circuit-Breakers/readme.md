@@ -41,7 +41,7 @@ Add turbine dependency and add @EnableTurbine and make sure below properties are
 turbine.app-config=tollrate-billboard,fastpass-console
 turbine.aggregator.clusterConfig=TOLLRATE-BILLBOARD,FASTPASS-CONSOLE 
 ```
-Now hit the ``http://localhost:8085/hystrix`` and ``http://localhost:8081/hystrix.stream?cluster=FASTPASS-CONSOLE`` and ``http://localhost:8081/hystrix.stream?cluster=TOLLRATE-BILLBOARD``
+Now hit the ``http://localhost:8085/hystrix`` and ``http://localhost:8081/hystrix.stream?cluster=FASTPASS-CONSOLE`` and ``http://localhost:8082/hystrix.stream?cluster=TOLLRATE-BILLBOARD``
 
 # hystrix turbine
 
